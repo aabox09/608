@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "http_port": 80,
+    "tls_port": 443,
+    "status_port": 9090,
+    "default_target_host": "127.0.0.1",
+    "default_target_port": 22,
+    "buffer_size": 8192,
+    "timeout": 300,
+    "cert_file": "/etc/stunnel/certs/stunnel.pem",
+    "key_file": "/etc/stunnel/certs/stunnel.key",
+    "ua_keyword_ws": "26.4.0",
+    "ua_keyword_probe": "1.0",
+    "allow_simultaneous_connections": true,
+    "default_expiry_days": 30,
+    "default_limit_gb": 100,
+    "ip_whitelist": [],
+    "ip_blacklist": [],
+    "enable_ip_whitelist": false,
+    "enable_ip_blacklist": false,
+    "enable_device_id_auth": false
+  },
+  "accounts": {
+    "admin": "admin"
+  },
+  "device_ids": {}
+}
